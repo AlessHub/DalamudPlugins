@@ -36,6 +36,7 @@ jobs:
             $result.Add([ordered]@{
               Author              = $plugin.author
               Name                = $plugin.name
+              InternalName        = $plugin.internalName
               Punchline           = $plugin.punchline
               Description         = $plugin.description
               Changelog           = ""
